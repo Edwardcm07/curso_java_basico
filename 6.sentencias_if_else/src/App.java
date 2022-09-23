@@ -7,14 +7,15 @@ public class App {
         int num3 = 20;
         int num4 = 1000;
 
-        if (num1 < num2 && num2 < num3) {
+        if (num1 < num2 && num2 < num3) {// se evalua la primera opción
             System.out.println("verdadero");
             System.out.println("verdadero");
-        } else if (num3 < num4) {
+        } else if (num3 < num4) {// si no se cumple la primera opcion se evalua esta
             System.out.println("else if");
-        } else {
+        } else {// si ninguna opción se cumple
 
         }
+        // sale del else if
         System.out.println("Fin");
     }
 }
