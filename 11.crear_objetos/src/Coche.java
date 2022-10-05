@@ -9,6 +9,7 @@ public class Coche {
     Double peso;
     Double largo;
     Integer velocidad = 0;
+    int acelerar;
 
     // constructor: El constructor recibe una serie de parámetros (lo que está entre
     // paréntesis) que nos permitirán crear o instanciar el objeto coche.
