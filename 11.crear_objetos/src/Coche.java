@@ -20,6 +20,7 @@ public class Coche {
         this.modelo = modelo;
         this.peso = peso;
         this.largo = largo;
+
     }
     // La notación this. indica que el objeto que se crea a partir de la clase Coche
     // hace referencia a las propiedades definidas en la declaración de la clase.
@@ -28,5 +29,6 @@ public class Coche {
 
     public void acelerar() {
         this.velocidad = velocidad;
+
     }
 }
